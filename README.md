@@ -9,4 +9,4 @@ __Amazon SDE Test Series__ consists of practice questions of the following topic
 2) [Searching](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/02%20Searching)
 3) [Sorting](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/03%20Sorting)
 4) [Matrix](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/04%20Matrix)
-5) Hashing
+5) [Hashing](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/05%20Hashing)
