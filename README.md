@@ -12,3 +12,4 @@ __Amazon SDE Test Series__ consists of practice questions of the following topic
 5) [Hashing](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/05%20Hashing)
 6) [String](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/06%20String)
 7) [Linked List](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/07%20Linked%20List)
+8) [Stack](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/08%20Stack)
