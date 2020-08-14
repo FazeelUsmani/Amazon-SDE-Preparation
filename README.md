@@ -15,4 +15,5 @@ __Amazon SDE Test Series__ consists of practice questions of the following topic
 8) [Stack](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/08%20Stack)
 9) [Queue](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/09%20Queue)
 10) [Trees](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/10%20Trees)
-11) [Binary Search Tree](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/11%20Binary%20Search%20%F0%9F%8C%B2)
+11) [Binary Search 🌲](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/11%20Binary%20Search%20%F0%9F%8C%B2)
+12) [Heap](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/12%20Heap)
