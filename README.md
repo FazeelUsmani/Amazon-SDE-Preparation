@@ -18,4 +18,5 @@ __Amazon SDE Test Series__ consists of practice questions of the following topic
 11) [Binary Search 🌲](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/11%20Binary%20Search%20%F0%9F%8C%B2)
 12) [Heap](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/12%20Heap)
 13) [Graph](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/13%20Graph)
-
+14) [Backtracking](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/14%20Backtracking)
+15) [Dynamic Programming](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/15%20Dynamic%20Programming)
