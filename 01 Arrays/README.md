@@ -5,3 +5,8 @@ This folder contains all the solved problems of Arrays topic
 3) Max and Second Max
 4) Minimum distance between two numbers
 5) Rotate Array
+6) Max sum path in two arrays
+7) Remove duplicates in small prime array
+8) Max sum in the configuration
+9) Sorted subsequence of size 3
+10) Find duplicates in an array
