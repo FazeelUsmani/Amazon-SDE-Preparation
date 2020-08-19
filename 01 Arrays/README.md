@@ -15,3 +15,8 @@ This folder contains all the solved problems of Arrays topic
 13) Equilibrium Point
 14) Stickler Thief
 15) Product array puzzle
+16) Maximum Index
+17) Subarray with given sum
+18) Kadane's Algorithm
+19) Trapping rain water
+20) Container with most water
