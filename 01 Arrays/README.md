@@ -10,3 +10,8 @@ This folder contains all the solved problems of Arrays topic
 8) Max sum in the configuration
 9) Sorted subsequence of size 3
 10) Find duplicates in an array
+11) Mountain Subarray Problem
+12) Wave Array
+13) Equilibrium Point
+14) Stickler Thief
+15) Product array puzzle
