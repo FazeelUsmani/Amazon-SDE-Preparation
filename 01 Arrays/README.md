@@ -24,3 +24,7 @@ This folder contains all the solved problems of Arrays topic
 22) Three Sum Closest
 23) Max Circular Subarray Sum
 24) Rearange in array with O(1) space
+25) Frequencies of Limited Range Array Elements
+26) Union of Two Sorted Arrays
+27) Intersection of two arrays
+28) Binary Array Sorting
