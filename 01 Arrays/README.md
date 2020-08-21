@@ -6,7 +6,7 @@ This folder contains all the solved problems of Arrays topic
 4) [Minimum distance between two numbers](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/blob/master/01%20Arrays/04%20minDist2nos.cpp)
 5) [Rotate Array](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/blob/master/01%20Arrays/05%20rotateArray.cpp)
 6) [Max sum path in two arrays](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/blob/master/01%20Arrays/06%20maxPathSum.cpp)
-7) Remove duplicates in small prime array
+7) [Remove duplicates in small prime array](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/blob/master/01%20Arrays/07%20removeDuplicatesinprimearr.cpp)
 8) Max sum in the configuration
 9) Sorted subsequence of size 3
 10) Find duplicates in an array
