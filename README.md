@@ -16,10 +16,10 @@ __Amazon SDE Test Series__ consists of practice questions for the following topi
 9) [Queue](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/09%20Queue)
 10) [Trees](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/10%20Trees)
 11) [Binary Search 🌲](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/11%20Binary%20Search%20%F0%9F%8C%B2)
-12) [Heap](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/12%20Heap)
+12) [Heap](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/12%20He
 13) [Graph](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/13%20Graph)
 14) [Backtracking](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/14%20Backtracking)
 15) [Dynamic Programming](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/15%20Dynamic%20Programming)
 
 
-__P.S:__ Practicing all these problems doesn't guarantee you a job at **Amazon**. It all depends on your *thought-process*, *hard-work* and *luck*. Take these problems as a reference to build your problem solving skills.
+__P.S:__ Practicing all these problems doesn't guarantee you a job at **Amazon**. It all depends on your *thought-process*, *luck* and *hard-work*. Take these problems as a reference to build your problem solving skills.
