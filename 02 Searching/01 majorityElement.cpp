@@ -1,26 +1,26 @@
 
-bool isMajority(int a[], int ele, int n){
+bool isMajority(int a[], int element, int n){
     
-    int cnt = 0;
+    int count = 0;
     for (int i = 0; i < n; ++i){
-        if (a[i] == ele){
-            cnt++;
+        if (a[i] == element){
+            count++;
         }
     }
-    return (cnt > (n/2));
+    return (count > (n/2));
 }
 
 int majorityElement(int arr[], int size)
 {
-    int index = 0, cnt = 0;
+    int index = 0, count = 0;
     for (int i = 0; i < size; ++i){
         if (arr[index] == arr[i])
-            cnt++;
+            count++;
         else
-            cnt--;
-        if (cnt == 0){
+            count--;
+        if (count == 0){
             index = i;
-            cnt = 1;
+            count = 1;
         }
     }
     
