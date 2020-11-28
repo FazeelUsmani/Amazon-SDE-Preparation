@@ -23,5 +23,7 @@ __Amazon SDE Test Series__ consists of practice questions for the following topi
 15) [Dynamic Programming](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/tree/master/15%20Dynamic%20Programming)
 
 
+To visualize data structures use this [website](https://visualgo.net/en)
+
 
 __P.S:__ Practicing all these problems doesn't guarantee you a job at **Amazon**. It all depends on your *thought-process*, *luck* and *hard-work*. Take these problems as a reference to build your problem solving skills.
