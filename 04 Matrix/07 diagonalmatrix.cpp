@@ -1,6 +1,6 @@
-  
-vector<int> MatrixDiagonally(int mat[][100], int n) 
-{ 
+
+vector<int> matrixDiagonally(int mat[MAX][MAX], int n)
+{
     int i = 0, j = 0; 
     bool Upward = true; 
     vector<int> ans;
