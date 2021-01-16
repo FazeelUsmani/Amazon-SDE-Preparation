@@ -1,6 +1,13 @@
 {
     "files.associations": {
         "queue": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "utility": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
     }
 }
