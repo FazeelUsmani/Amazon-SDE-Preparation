@@ -35,3 +35,5 @@ int maxIndexDiff(int arr[], int n)
     
     return maxDiff;
 }
+
+
