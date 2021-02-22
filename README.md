@@ -2,6 +2,7 @@
 
 This repository includes all the solved interview preparation questions for Amazon SDE role. I'll be solving 2-3 problems daily. So stay 👀
 
+https://badges.pufler.dev/visits/{FazeelUsmani}/{https://github.com/FazeelUsmani/Amazon-SDE-Test-Series.git}
 
 __Amazon SDE Test Series__ consists of practice questions for the following topics:
 
