@@ -1,6 +1,5 @@
 string smallestWindow(string S, string P) {
-    unordered_map<char, int> uMap;
-    // counter represents the number of chars of P to be found in S.
+    int uMap[256] = { 0 };
     int counter =0;
     int start =0;
     int minStart =0;
