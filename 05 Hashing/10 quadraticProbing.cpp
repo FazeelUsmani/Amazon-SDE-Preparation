@@ -12,7 +12,4 @@ void QuadraticProbing(vector <int>&hash, int hashSize, int arr[], int N){
         }
         hash[position] = arr[i];
     }
-    for (int output : hash){
-        cout << output <<" ";
-    }
 }
