@@ -1,12 +1,12 @@
 
 class Solution
-{   
-public:     
-    vector<int> boundaryTraversal(vector<vector<int> > matrix, int row, int col) 
+{
+public:
+    vector<int> boundaryTraversal(vector<vector<int> > matrix, int row, int col)
     {
-        
+
         vector<int> ans;
-        
+
         // rs = row start
         // re = row end
         // cs = column start
@@ -14,9 +14,9 @@ public:
         int rs = 0, re = row-1, cs = 0, ce = col-1, tot;
         if ( (row == 1 || col == 1) || (row == 2 || col == 2) )
             tot = row*col;
-        else 
+        else
             tot = (2*row) + (2*col)-4;
-            
+
         int x = 0;
 
         while (x < tot) {

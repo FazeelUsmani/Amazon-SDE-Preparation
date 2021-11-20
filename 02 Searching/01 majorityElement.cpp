@@ -1,6 +1,6 @@
 
 bool isMajority(int a[], int element, int n){
-    
+
     int count = 0;
     for (int i = 0; i < n; ++i){
         if (a[i] == element){
@@ -23,7 +23,7 @@ int majorityElement(int arr[], int size)
             count = 1;
         }
     }
-    
+
     if(isMajority(arr, arr[index], size))
         return arr[index];
     return -1;

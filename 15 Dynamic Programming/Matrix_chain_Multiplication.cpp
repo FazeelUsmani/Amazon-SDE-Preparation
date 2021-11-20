@@ -16,7 +16,7 @@ public:
            int val = INT_MAX;
            for(int pivot = r;pivot < c;pivot++){
                val = min(val,dp[r][pivot] + dp[pivot+1][c] + A[r] + A[pivot+1] + A[c+1] );
-    
+
            }
            dp[r][c] = val;
            r++, c++;
@@ -27,7 +27,7 @@ public:
 };
 
 int main(){
-    
+
     Solution s;
    vector<int> v;
    int n;cin>>n;
@@ -35,7 +35,7 @@ int main(){
      int x;cin>>x;
      v.push_back(x);
    }
-   
+
   cout<< s.Matrix(v);
     return 0;
 }

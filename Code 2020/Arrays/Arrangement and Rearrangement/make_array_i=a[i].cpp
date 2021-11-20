@@ -6,7 +6,7 @@ int main(){
     int h[n] = {-1};
     for(int i = 0;i<n;i++){
         if(a[i] > -1)
-            h[a[i]] = a[i];    
+            h[a[i]] = a[i];
     }
     for(int i = 0;i<n;i++){
         if(h[i]==0 && i>0)

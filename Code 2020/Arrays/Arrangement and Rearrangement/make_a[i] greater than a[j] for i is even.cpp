@@ -23,5 +23,5 @@ int main(){
         k++;
     }
     for(int i = 0;i<n;i++)
-        cout<<h[i]<<" ";    
+        cout<<h[i]<<" ";
 }

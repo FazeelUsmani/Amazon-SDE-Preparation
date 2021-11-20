@@ -13,7 +13,7 @@ int main() {
 	        cout<<2<<endl;
 	        continue;
 	    }
-	    
+
 	    long dp[100];
 	    dp[0] = 1;
 	    dp[1] = 1;

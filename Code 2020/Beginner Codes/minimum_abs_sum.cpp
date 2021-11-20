@@ -26,7 +26,7 @@ int main(){
             if(min == 0){
                 break;
             }
-        (abs(a[low] + a[high])<0)? low++:high--;  
+        (abs(a[low] + a[high])<0)? low++:high--;
     }
 cout<<"("<<a[p]<<","<<a[q]<<")";
 

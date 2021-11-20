@@ -13,5 +13,5 @@
             map.put(a[i],map.getOrDefault(a[i],0)+1);
             res.add(map.size());
         }
-        return res;  
+        return res;
        }

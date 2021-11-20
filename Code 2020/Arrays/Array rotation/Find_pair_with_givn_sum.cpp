@@ -7,15 +7,15 @@ bool pair_check(int *a,int sum,int n){
         if(a[i]>a[i+1]){
            l = (i+1)%n;
            h = i;
-           break; 
-        }   
+           break;
+        }
     }
     while (l != h)
     {
     if(a[l] + a[h] == sum)
         return true;
     if(a[l] + a[h] < sum)
-        l =(l+1)%n;    
+        l =(l+1)%n;
     if(a[l] + a[h] > sum)
         h = (h-1)%n;
     }

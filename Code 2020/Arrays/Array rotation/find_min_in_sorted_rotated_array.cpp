@@ -12,7 +12,7 @@ int search(int *a,int l,int h){
         }
         else
             h = mid - 1;
-            
+
     }
     return a[l];
 }

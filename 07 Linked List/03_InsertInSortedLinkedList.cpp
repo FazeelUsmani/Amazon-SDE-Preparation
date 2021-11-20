@@ -40,7 +40,7 @@ void display(node *head)
 {
     node *temp = head;
     while (temp != NULL)
-    { 
+    {
         cout << temp->data << " ";
         temp = temp->next;
     }
@@ -72,7 +72,7 @@ node * insertInSortedLinkedList(node * & head,int data){
 
 
 int main(){
-    
+
     node *head = NULL;
     insertAtTail(head, 25);
     insertAtTail(head, 36);

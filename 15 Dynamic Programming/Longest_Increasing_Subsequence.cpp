@@ -7,8 +7,8 @@ Given an unsorted array of integers, find the length of longest increasing subse
 Example:
 
 Input: [10,9,2,5,3,7,101,18]
-Output: 4 
-Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4. 
+Output: 4
+Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
 
 */
 class Solution {
@@ -18,12 +18,12 @@ public:
         vector<int> v(n);
           if(n==0) return 0;
           v[0] = 1; //isse bura nh ho skta yha 1 length to hoga hi
-      
+
         for(int i=1;i<n;i++){
            v[i] =1;
              for(int j=0;j<i;j++){
                   if(nums[i] > nums[j] && v[i] < v[j]+1) v[i] = v[j]+1;
-             } 
+             }
         }
         return *max_element(v.begin(), v.end());
     }

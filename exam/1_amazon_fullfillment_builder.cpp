@@ -6,21 +6,21 @@ Amazon Fulfillment Builder is a new feature that enables Amazon warehouses to cr
 
 
 int combineParts(vector<int> parts) {
-    
+
     int ans = 0;
     // for (int x : parts)
     //     ans += x;
     priority_queue<int, vector<int>, greater<int>> pq(parts.begin(), parts.end());
-    
+
     while (pq.size() > 1) {
         int a = pq.top();
         pq.pop();
         int b = pq.top();
         pq.pop();
-        
+
         ans += (a+b);
-        pq.push(a+b);            
+        pq.push(a+b);
     }
-    
-    return ans; 
+
+    return ans;
 }

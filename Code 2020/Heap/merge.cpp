@@ -9,7 +9,7 @@ int merge(int *a,int l,int m,int h){
     for(int i =0;i<n1;i++)
         lh[i] = a[l+i];
     for(int j =0;j<n2;j++)
-        rh[j] = a[m+1+j];    
+        rh[j] = a[m+1+j];
     int i=0,j=0,k=l;
     while(i<n1 && j<n2 && k<n1+n2){
         if(lh[i]<=rh[j]){
@@ -30,7 +30,7 @@ int merge(int *a,int l,int m,int h){
     while(j<n2){
         a[k] = rh[j];
         k++;j++;
-       
+
     }
     delete[] lh;
     delete[] rh;

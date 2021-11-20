@@ -6,17 +6,17 @@ int search(int a[],int l,int h,int k){
         return -1;
     int mid = (l+h)/2;
     if(a[mid] == k)
-        return mid;    
+        return mid;
 
     if(a[l] <= a[mid]){
         if(a[l]<= k && k <= a[mid])
             return search(a,l,mid-1,k);
-        return search(a,mid+1,h,k);    
+        return search(a,mid+1,h,k);
     }
     if(k >= a[mid] && k <=a[h])
         return search(a,mid+1,h,k);
 
-    return search(a,l,mid-1,k);    
+    return search(a,l,mid-1,k);
 }
 int main(){
     int n;cout<<"Enter the size of the array :"<<endl;

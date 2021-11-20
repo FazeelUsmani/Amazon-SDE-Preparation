@@ -9,11 +9,11 @@ int maxsum(int a[],int n){
         return a[0];
     else{
         return max(a[n-1]+ maxsum(a,n-1),maxsum(a,n-1));
-    }        
+    }
 }
 
 int main(){
     int a[] = {-1,2,-3,4,5};
-    int n = sizeof(a)/sizeof(a[0]); 
+    int n = sizeof(a)/sizeof(a[0]);
     cout<<maxsum(a,n);
 }

@@ -11,7 +11,7 @@ int main(){
                h = i;
                break;
            }
-       } 
+       }
            while(l<h && h<n){
             if(l%2 !=0 && a[l]<0){
                 if(a[h]>0){

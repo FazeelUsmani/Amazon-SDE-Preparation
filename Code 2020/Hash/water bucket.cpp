@@ -9,9 +9,9 @@ void solve(vector<int>v,int temp,vector<int>&z){
         return;
         }
     vector<int>::iterator itr;
-    itr = v.begin();    
+    itr = v.begin();
     int op1 = temp;int op2 = temp;
-    op1 = op1 + min(*itr,*itr + 1);    
+    op1 = op1 + min(*itr,*itr + 1);
     op2 += abs(*itr - (*itr+1));
     v.erase(v.begin() + 0);
     solve(v,op1,z);

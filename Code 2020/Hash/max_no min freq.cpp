@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int a[] = {2,2,5,50,1};
-    int n = sizeof(a)/sizeof(a[0]); 
+    int n = sizeof(a)/sizeof(a[0]);
     int f = 1000;int res = 0;
         int h[101] = {0};
         for(int i = 0;i<n;i++){
