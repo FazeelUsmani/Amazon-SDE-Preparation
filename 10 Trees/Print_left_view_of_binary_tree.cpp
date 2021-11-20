@@ -38,7 +38,7 @@ void leftViewUtil(struct Node *root,
 	// then right subtree
 	leftViewUtil(root->left, level + 1, max_level);
 	leftViewUtil(root->right, level + 1, max_level);
-	
+
 }
 
 // A wrapper over leftViewUtil()

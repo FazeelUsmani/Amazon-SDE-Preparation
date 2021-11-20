@@ -6,7 +6,7 @@ int findno(int *a,int i,int j,int index){
         if(index == i)
             index = j;
         else
-            index--;    
+            index--;
     }
     return a[index];
 }

@@ -22,6 +22,6 @@ int main(){
         else
             cout<<opr.top();
 
-        opr.pop();op1.pop();    
-    }   
+        opr.pop();op1.pop();
+    }
 }

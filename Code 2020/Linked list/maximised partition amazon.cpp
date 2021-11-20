@@ -14,7 +14,7 @@ void solve(string s){
     int minp = -1;
     for(int i = 0;i<n;i++){
         int lp = v[s[i] - 'a'];
-        minp = max(minp, lp); 
+        minp = max(minp, lp);
        if(minp == i){
            cout<<ans<<" ";
            ans = "";

@@ -6,12 +6,12 @@ Amazon Fresh is a grocery delivery service that offers consumers the option of p
 
 
 int minimumDistance(vector<vector<int>> area) {
-    
+
     int row = area.size();
     if (row == 0)   return -1;
     int col = area[0].size();
     if (col == 0)   return -1;
-        
+
     vector<pair<int, int> > directions {{0,1}, {1,0}, {-1,0}, {0,-1}};
     bool vis[row][col];
     for (int i = 0; i < row; ++i)    {
@@ -19,46 +19,46 @@ int minimumDistance(vector<vector<int>> area) {
             vis[i][j] = 0;
         }
     }
-    
+
     // boundary check
     auto check = [&](int x, int y) {
         return (0<=x && x<row && 0<=y && y<col);
     };
-    
+
     int distance = 0;
-    
+
     queue<pair<int, int>> q;
     if (area[0][0] == 0)   return -1;
     q.push(make_pair(0,0));
     vis[0][0] = 1;
-    
+
     while (!q.empty()) {
-        
-        distance++;        
+
+        distance++;
         int sz = q.size();
-        
+
         for (int i = 0; i < sz; ++i) {
             pair<int, int> curr = q.front();
             q.pop();
-            
+
             for (pair<int, int> dir: directions) {
                 int newX = dir.first + curr.first;
                 int newY = dir.second + curr.second;
-                if (check(newX, newY) == false) 
+                if (check(newX, newY) == false)
                     continue;
-                    
+
                 if (area[newX][newY] == 9) {
                     return distance;
                 }
                 if (area[newX][newY] == 0)
                     continue;
-                
+
                 if (!vis[newX][newY] && area[newX][newY])                {
                     vis[newX][newY] = 1;
                     q.push(make_pair(newX, newY));
                 }
-            }            
-        }        
+            }
+        }
     }
-    return -1;     
+    return -1;
 }

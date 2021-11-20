@@ -26,10 +26,10 @@ void maxMeeting(int s[], int f[], int n)
 	{
 		// Starting time of meeting i.
 		meet[i].start = s[i];
-		
+
 		// Finishing time of meeting i
 		meet[i].end = f[i];
-		
+
 		// Original position/index of meeting
 		meet[i].pos = i + 1;
 	}
@@ -54,7 +54,7 @@ void maxMeeting(int s[], int f[], int n)
 		{
 			// Push selected meeting to vector
 			m.push_back(meet[i].pos);
-			
+
 			// Update time limit.
 			time_limit = meet[i].end;
 		}
@@ -71,10 +71,10 @@ int main()
 {
 	// Starting time
 	int s[] = { 1, 3, 0, 5, 8, 5 };
-	
+
 	// Finish time
 	int f[] = { 2, 4, 6, 7, 9, 9 };
-	
+
 	// Number of meetings.
 	int n = sizeof(s) / sizeof(s[0]);
 

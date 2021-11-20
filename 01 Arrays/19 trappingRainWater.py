@@ -27,13 +27,13 @@ import math
 def main():
         T=int(input())
         while(T>0):
-            
+
             n=int(input())
-            
+
             arr=[int(x) for x in input().strip().split()]
             print(trappingWater(arr,n))
-            
-            
+
+
             T-=1
 
 

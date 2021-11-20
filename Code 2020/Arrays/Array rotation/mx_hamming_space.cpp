@@ -21,7 +21,7 @@ int main(){
     for(int i = 0;i<n;i++){
        int c = abs(h[a[i]] - i);
        if(c>maxham)
-        maxham = c;  
+        maxham = c;
     }
     cout<<maxham + 1;
 }

@@ -15,6 +15,6 @@ int main() {
     getline(cin,t);
     cout<<a+i<<endl;
     cout<<fixed<<setprecision(1)<<d+b<<endl;
-    cout<<s<<t; 
+    cout<<s<<t;
     return 0;
 }

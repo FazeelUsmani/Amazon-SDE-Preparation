@@ -23,10 +23,10 @@ class stack
 			stackSize=0;
 			head=NULL;
 		}
-	
+
 	void push(int val)
 	{
-		if(head==NULL)	
+		if(head==NULL)
 		head=new stackNode(val);
 		else
 		{
@@ -35,20 +35,20 @@ class stack
 		head=newNode;
 		}
 		stackSize++;
-	}	
-	
+	}
+
 	int pop()
 	{
-		
+
 		if(isEmpty())
 		return -1;       //returning -1 if stack is empty
 		stackSize--;
 		int val=head->data;
 		head=head->next;
 		return val;
-		 
+
 	}
-	
+
 	bool isEmpty()
 	{
 		if(head==NULL)
@@ -61,7 +61,7 @@ class stack
 		return true;
 		return false;
 	}
-	
+
 	int getMin()
 	{
 		stackNode* trav=head;
@@ -73,6 +73,6 @@ class stack
 		}
 		return minVal;
 	}
-	
+
 };
 

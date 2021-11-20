@@ -23,7 +23,7 @@ __Amazon SDE Test Series__ consists of practice questions for the following topi
 
 To visualize data structures use [VisuAlgo](https://visualgo.net/en)
 
-### Here's the guide for problem constraints: 
+### Here's the guide for problem constraints:
 ![problem-constraints-guide](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/blob/master/img/problem-constraints.png)
 ** The above table is an excerpt from the ACM ICPC World Finalist 2011. The original blog post can be found [here](https://sites.google.com/site/mostafasibrahim/programming-competitions/thinking-techniques?authuser=0)
 

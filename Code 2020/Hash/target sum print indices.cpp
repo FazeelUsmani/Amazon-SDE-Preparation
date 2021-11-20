@@ -13,7 +13,7 @@ int main(){
         int temp = target-a[i];
         if(s.find(temp) != s.end()){
             p = temp;
-            d = i; 
+            d = i;
             break;
         }
         else{
@@ -25,7 +25,7 @@ int main(){
         {
             c = i;
             break;
-        } 
+        }
     }
     cout<<c<<" "<<d;
 

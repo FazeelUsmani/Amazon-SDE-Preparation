@@ -16,7 +16,7 @@ int MaxSum(int arr[],int n){
         max_s0_far = max(dp[i], max_s0_far);
 
     }
-  
+
      return max_s0_far;
 
 }
@@ -41,9 +41,9 @@ int MaxSum(int arr[],int n){
 int main(){
      int arr[100] = {-3,2,5,-1,6,3,-2,7,-5,2};
      int n = sizeof(arr) / sizeof(int);
-    
+
      cout<<MaxSum(arr,n)<<endl;
      cout<<MaxSum_II(arr,n);
-    
+
     return 0;
 }

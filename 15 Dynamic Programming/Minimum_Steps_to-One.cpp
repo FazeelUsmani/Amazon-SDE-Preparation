@@ -7,7 +7,7 @@ int Steps_toOne(int n, int dp[]){  //top down approach
     //base case
     //O(n)
     if(n == 1 ){
-     return 0; 
+     return 0;
     }
 
     // Rec case
@@ -26,11 +26,11 @@ int Steps_toOne(int n, int dp[]){  //top down approach
         op2 = Steps_toOne(n/2, dp) + 1;
     }
     op3 = Steps_toOne(n-1 ,dp) + 1;
-   
+
    int ans = min(min(op1, op2), op3);
    return dp[n] = ans;
 
-    
+
 }
 //Now we will see bottom up approach
 
@@ -50,14 +50,14 @@ int MinstepBU(int n){
         }
         op3 = dp[i-1];
 
-        dp[i]  = min(min(op1, op2), op3) + 1;        
+        dp[i]  = min(min(op1, op2), op3) + 1;
     }
     return dp[n];
 
 
 }
 int main(){
-    
+
     int n;
     cin>>n;
     int dp[1000] = {0};
@@ -66,7 +66,7 @@ int main(){
 
     //or
 
-    //Bottom up 
+    //Bottom up
     cout<<MinstepBU(n);
     return 0;
 }

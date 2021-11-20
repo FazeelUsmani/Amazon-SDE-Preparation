@@ -98,7 +98,7 @@ void togetnodefromend(int x,int l){
     if(temp == NULL)
         cout<<"No Element exists"<<endl;
     else
-        cout<<"The element at position "<<c<<" from end is : "<<temp->data<<endl;    
+        cout<<"The element at position "<<c<<" from end is : "<<temp->data<<endl;
 }
 void midelement(int l){
     if(l%2!=0){
