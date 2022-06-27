@@ -27,4 +27,5 @@ To visualize data structures use [VisuAlgo](https://visualgo.net/en)
 ![problem-constraints-guide](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/blob/master/img/problem-constraints.png)
 ** The above table is an excerpt from the ACM ICPC World Finalist 2011. The original blog post can be found [here](https://sites.google.com/site/mostafasibrahim/programming-competitions/thinking-techniques?authuser=0)
 
+
 __P.S:__ Practicing all these problems doesn't guarantee you a job at **Amazon**. It all depends on your *thought-process*, *luck* and *hard-work*. Take these problems as a reference to build your problem solving skills.
