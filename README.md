@@ -24,7 +24,20 @@ __Amazon SDE Test Series__ consists of practice questions for the following topi
 To visualize data structures use [VisuAlgo](https://visualgo.net/en)
 
 ### Here's the guide for problem constraints: 
-![problem-constraints-guide](https://github.com/FazeelUsmani/Amazon-SDE-Test-Series/blob/master/img/problem-constraints.png)
+
+|N|Complexity|Possible Algorithms & Techniques|
+|-|----------|--------------------------------|
+|10<sup>18</sup>|O(log N)|Binary & Ternary Search / Matrix Power / Cycle Tricks / Big Simulation Steps / Values ReRank|
+|100,000,000|O(N)|A Linear Solution - May be a greedy/adhock algorithm|
+|40,000,000|O(N log N)|linear # calls to Binary & Ternary Search / Pre-processing & Querying / D & C|
+|10,000|O(N<sup>2</sup>)|adhock / DP / Greedy / D & C / B & B|
+|500|O(N<sup>3</sup>)|adhock / DP / Greedy / ..|
+|90|O(N<sup>4</sup>)|adhock / DP / Greedy / ...|
+|30-50|O(N<sup>5</sup>)|Search with pruning - branch and bound|
+|40|O(2<sup>N/2</sup>)|Meet in Middle|
+|20|O(2<sup>N</sup>)|Backtracking / Generating 2<sup>N</sup> Subsets|
+|11|O(N!)|Factorial / Permutations / Combination Algorithm|
+
 ** The above table is an excerpt from the ACM ICPC World Finalist 2011. The original blog post can be found [here](https://sites.google.com/site/mostafasibrahim/programming-competitions/thinking-techniques?authuser=0)
 
 
