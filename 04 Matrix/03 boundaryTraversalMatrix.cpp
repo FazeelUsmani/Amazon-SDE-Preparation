@@ -1,12 +1,46 @@
+#include <vector>
+#include <iostream>
 
 class Solution
 {   
 public:     
+    std::vector<int> boundaryTraversalNew(std::vector <std::vector <int>> matrix, int n, int m)
+    {
+        // n = # of rows, m = # of columns
+        std::vector<int> result;
+
+        // adds the horizontal row in the first row to the result
+        for(int i = 0; i < m; i++)
+        {
+            result.push_back(matrix[0][i]);
+        }
+        
+        // adds the vertical row in the last column to the result
+        for(int i = 1; i < n-1; i++)
+        {
+            result.push_back(matrix[i][m-1]);
+        }
+        
+        // adds the horizontal row in the last row to the result
+        for(int i = m-1; i >= 0; i--)
+        {
+            result.push_back(matrix[n-1][i]);
+        }
+        
+        // adds the vertical row in the first column to the result
+        for(int i = n-2; i > 0; i--)
+        {
+            result.push_back(matrix[i][0]);
+        }
+        
+        return result;
+    }
+
+    
     vector<int> boundaryTraversal(vector<vector<int> > matrix, int row, int col) 
     {
         
         vector<int> ans;
-        
         // rs = row start
         // re = row end
         // cs = column start
